@@ -1,0 +1,12 @@
+Source: ros-turbulent-tlsf-cpp
+Section: misc
+Priority: extra
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-rclcpp, ros-turbulent-rmw, ros-turbulent-rmw-implementation-cmake, ros-turbulent-std-msgs, ros-turbulent-tlsf, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-tlsf-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake, ros-turbulent-rclcpp, ros-turbulent-rmw, ros-turbulent-std-msgs, ros-turbulent-tlsf, ros-turbulent-ros-workspace
+Description: C++ stdlib-compatible wrapper around tlsf allocator and ROS2 examples
