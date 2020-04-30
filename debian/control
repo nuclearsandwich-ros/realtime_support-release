@@ -1,0 +1,12 @@
+Source: ros-verystable-tlsf-cpp
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-cmake-gtest, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-rclcpp, ros-verystable-rmw, ros-verystable-rmw-implementation-cmake, ros-verystable-std-msgs, ros-verystable-tlsf, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-tlsf-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-cmake, ros-verystable-rclcpp, ros-verystable-rmw, ros-verystable-std-msgs, ros-verystable-tlsf, ros-verystable-ros-workspace
+Description: C++ stdlib-compatible wrapper around tlsf allocator and ROS2 examples
