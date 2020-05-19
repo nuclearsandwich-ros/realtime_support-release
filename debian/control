@@ -1,0 +1,12 @@
+Source: ros-testing-tlsf-cpp
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-gtest, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-rclcpp, ros-testing-rmw, ros-testing-rmw-implementation-cmake, ros-testing-std-msgs, ros-testing-tlsf, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-tlsf-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-cmake, ros-testing-rclcpp, ros-testing-rmw, ros-testing-std-msgs, ros-testing-tlsf, ros-testing-ros-workspace
+Description: C++ stdlib-compatible wrapper around tlsf allocator and ROS2 examples
